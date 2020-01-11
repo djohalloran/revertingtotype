@@ -3,15 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://practicalreason.net/article/</loc>
+    <lastmod>2018-02-11T20:20:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://practicalreason.net/article/canon-cannot-communicate-with-battery/</loc>
+    <lastmod>2018-02-11T20:20:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://practicalreason.net/</loc>
+    <lastmod>2018-02-11T20:20:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/page/about/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/page/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/article/rural-broadband-woes/</loc>
+    <lastmod>2015-02-25T11:23:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/article/dualla-show-2013/</loc>
+    <lastmod>2013-07-26T14:22:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/article/mounting-network-locations-on-linux-using-samba/</loc>
+    <lastmod>2012-07-29T20:14:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/article/squeezebox-duet-without-controller/</loc>
+    <lastmod>2012-03-20T06:57:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/article/syntax-highlighting-in-joomla/</loc>
+    <lastmod>2012-03-20T06:57:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/author/</loc>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://practicalreason.net/tags/</loc>
   </url>
   
 </urlset>

@@ -1,6 +1,6 @@
 title = "Reverting to Type"
 # Add an trailing slash to ensure that all fonts render correctly.
-baseURL = "http://djohalloran.github.io/"
+baseURL = "https://practicalreason.net/"
 theme = "bilberry-hugo-theme"
 
 enableRobotsTXT = true
@@ -31,8 +31,8 @@ googleAnalytics = ""
 
   # Description and meta data for the search engines
   author = "Dermot O'Halloran"
-  description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  description = "Reverting to Type Blog"
+  keywords = "blog,personal"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -41,10 +41,10 @@ googleAnalytics = ""
   enable_mathjax    = false
 
   # Enable / Disable algolia search
-  algolia_search    = false
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
-  algolia_indexName = "default-content"
+  algolia_search    = true
+  algolia_appId     = "K76BSSZGUU"
+  algolia_apiKey    = "fa3d1421faf4b75f0f61678f2e6138bc"
+  algolia_indexName = "dev_Blog"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
 
@@ -131,13 +131,9 @@ googleAnalytics = ""
 
 # customize your available languages for your multi-langual site
 # or delete the [Languages] blog to use the theme with only one supported language
-#[Languages]
-#  [Languages.en]
-#    weight = 1
-#  [Languages.de]
-#    weight = 2
-#    title = "Mein cooler neuer Blog"
-#    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+[Languages]
+  [Languages.en]
+    weight = 1
 
 # don't change anything below
 [taxonomies]
@@ -148,4 +144,3 @@ googleAnalytics = ""
 [outputs]
   home = [ "HTML", "JSON", "RSS" ]
   page = [ "HTML" ]
-

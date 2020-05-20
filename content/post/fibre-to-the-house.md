@@ -32,7 +32,7 @@ We got lucky and made it as one of the 330,000 rural installations to benefit fr
 
 At this point it's worth clarifying a few things when it comes to broadband speeds that have been muddled due to overmarketing and general ambiguity. When Eir originally rolled out Fibre-to-the-Cabinet (FTTC) in 2010 they marketed it as "fibre broadband" even though it was still DSL that was bringing the internet into each home. So while the core "back bone" connection to the local cabinet had speeds of 1GB, the connection between the cabinet and the home was still just copper-based DSL and this could never be more than 100Mbps. Cable broadband helped somewhat with higher speeds of 500Mbps but unlike copper phone lines, not all parts of a town had cable. 
 
-It's also worth mentioning the National Broadband Plan (NBP). Approximately 80% of the country will be able to access our network, the remaining 20% of homes and businesses fall under the Government’s National Broadband Plan (NBP). The goal of the NBP is to plug the gaps left in those not served the Eir fibre upgrade (which made no attempt to increase its coverage). It promises 150Mbps by year one, and under contract to reach 500Mbps by year eleven. 
+It's also worth mentioning the National Broadband Plan (NBP) whose goal is to plug the gaps left in those not served the Eir fibre upgrade. It promises 150Mbps by year one, and under contract to reach 500Mbps by year eleven. 
 
 {{< figure caption="Example of a 3M fibre distribution enclosure located on thousands of telephone poles all over Ireland. They house optical splitters that enable fibre cables to connect to individual houses. They are fully passive and don't use any power." src="/images/ftth-01.jpg" >}}
 
@@ -52,8 +52,7 @@ The ONT translates the light signals from the fibre optic line into electronic s
 
 {{< figure caption="The Optical Network Terminal (ONT)." src="/images/ftth-03.jpg" >}}
 
-However, the `Sagemcom Eir fibre Box 1A 1.0` router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. So I reached for a `TP-Link TL-MR3420 v2` router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
-
+However, the Sagemcom Eir fibre Box 1A 1.0 router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. So I reached for a **TP-Link TL-MR3420 v2** router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
 
 
 INSTALLING OPENWRT ON A GENREIC ROUTER & CONFIGURING THE VLAN

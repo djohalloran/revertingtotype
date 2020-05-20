@@ -32,7 +32,7 @@ We got lucky and made it as one of the 330,000 rural installations to benefit fr
 
 At this point it's worth clarifying a few things when it comes to broadband speeds that have been muddled due to overmarketing and general ambiguity. When Eir originally rolled out Fibre-to-the-Cabinet (FTTC) in 2010 they marketed it as "fibre broadband" even though it was still DSL that was bringing the internet into each home. So while the core "back bone" connection to the local cabinet had speeds of 1GB, the connection between the cabinet and the home was still just copper-based DSL and this could never be more than 100Mbps. Cable broadband helped somewhat with higher speeds of 500Mbps but unlike copper phone lines, not all parts of a town had cable. 
 
-It's also worth mentioning the National Broadband Plan (NBP) whose goal is to plug the gaps left in those not served the Eir fibre upgrade. It promises 150Mbps by year one, and under contract to reach 500Mbps by year eleven. 
+It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to 840,000 premises in hard-to-reach areas not served by the Eir fibre upgrade. This promises 150Mbps by year one, and under contract to reach 500Mbps by year eleven. 
 
 {{< figure caption="Example of a 3M fibre distribution enclosure located on thousands of telephone poles all over Ireland. They house optical splitters that enable fibre cables to connect to individual houses. They are fully passive and don't use any power." src="/images/ftth-01.jpg" >}}
 

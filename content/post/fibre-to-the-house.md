@@ -46,7 +46,7 @@ This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous
 
 The signal comes from the fibre distribution box on the pole outside our house that's connected to an Optical Network Terminal (ONT) located on an internal wall. 
 
-{{< figure caption="The calbe linking the fibre distribution box on the pole to the house and into an Optical Network Terminal (ONT)." src="/images/ftth-02.jpg" >}}
+{{< figure caption="The cable linking the fibre distribution box on the pole to the house and into an Optical Network Terminal (ONT)." src="/images/ftth-02.jpg" >}}
 
 The ONT translates the light signals from the fibre optic line into electronic signals and passes them to the WAN port on the router via a standard ethernet cable. 
 

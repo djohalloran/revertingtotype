@@ -42,7 +42,7 @@ EIR PACKAGE AND SETUP
 
 The Eir package I opted for costs €45.99 per month (24 months) and I also paid a €49.99 installation fee which involved an engineer bringing a wire across the road, onto my gable end and in through the wall. The router was free and is a Sagemcom Eir fibre box 1A 1.0 CS 50001.
 
-This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the fibre capacity is 1GB, the package speeds are fixed at 150/30, 300/50 or 1000/100. So in future we can theoretically upgrade the package to those speeds.
+This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the maximum capacity is theoretically 1GB, the package speeds are fixed at speeds of 150Mbps down and 30Mbps up. In future we can upgrade the package to speeds of 300Mbps/50Mbps and 1000Mbps/100Mbps. 
 
 The signal comes from the splice closure on the pole outside our house that's connected to an Optical Network Terminal (ONT) located on an internal wall. 
 
@@ -52,7 +52,13 @@ The ONT translates the light signals from the fibre optic line into electronic s
 
 {{< figure caption="The Optical Network Terminal (ONT)." src="/images/ftth-03.jpg" >}}
 
-However, the Sagemcom Eir fibre Box 1A 1.0 router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. So I reached for a TP-Link TL-MR3420 v2 router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
+However, the Sagemcom Eir fibre Box 1A 1.0 router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. 
+
+{{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router" src="/images/ftth-05.jpg" >}}
+
+So I reached for a TP-Link TL-MR3420 v2 router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
+
+{{< figure caption="TP-Link TL-MR3420 v2 router" src="/images/ftth-04.jpg" >}}
 
 
 INSTALLING OPENWRT ON A GENREIC ROUTER & CONFIGURING THE VLAN

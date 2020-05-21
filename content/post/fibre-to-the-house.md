@@ -10,13 +10,13 @@ bigimg: [{src: "/images/ftth-01.jpg", desc: "Eir"}]
 draft: false
 ---
 
-I recently signed up for Eir’s fibre-based broadband package and took an immediate dislike to the Sagemcom router that it came with. It was fiddly to configure and I wanted to see if I could swap it out for a more familiar broadband router I already had. This article outlines how I did this by flashing the old router with open source OpenWRT/LEDE software and configuring a VLAN to get it to work.
+I recently signed up for Eir's fibre-based broadband package and took an immediate dislike to the Sagemcom router that it came with. It was fiddly to configure and I wanted to see if I could swap it out for an existing and more familiar broadband router I already had. This article outlines how I did this by flashing the old router with open source OpenWRT/LEDE software and configuring a VLAN to get it to work.
 
 The main reasons for doing this:
 - Benefits of the well-established OpenVPN standard
 - A familiar user interface
 - Easier to configure things like firewalls, proxies etc.
-- A chance to learn a little about VLANs
+- An excuse to write this up and learn a little about VLANs
 
 
 BACKGROUNG AND FIBRE ROLLOUT
@@ -52,7 +52,7 @@ The ONT translates the light signals from the fibre optic line into electronic s
 
 {{< figure caption="The Optical Network Terminal (ONT)." src="/images/ftth-03.jpg" >}}
 
-However, the Sagemcom Eir fibre Box 1A 1.0 router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. So I reached for a **TP-Link TL-MR3420 v2** router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
+However, the Sagemcom Eir fibre Box 1A 1.0 router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. So I reached for a TP-Link TL-MR3420 v2 router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
 
 
 INSTALLING OPENWRT ON A GENREIC ROUTER & CONFIGURING THE VLAN
@@ -97,5 +97,8 @@ config interface 'lan'
 ```
 9. Restart the router. 
 
+CONCLUSION
+----------
+While it's useful to have an alternative router in the MR4320, its maximum speeds will be limited to under 100Mbps due to its old 10/100 ethernet ports. This means that if I want the maximum speeds of 150Mbps my current fibre package has to offer, I'll have to just stick to using the Sagemcom router with its Gigabit ports and ponder the pointlessness of this whole exercise.
 
-
+Another option is buy a [more modern router](https://www.asus.com/ie/Networking/RTAC68U/) with Gigabit ports and either configure it with a VLAN as described above or setup the Sagemcom router in bridge mode and connect a better router downwind of it. 

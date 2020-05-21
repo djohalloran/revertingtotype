@@ -84,7 +84,7 @@ config switch_vlan
         option vid '10'
         option ports '0t 2t'
 ```
-8. If you need to change the router's IP address then edit `ipaddr`:
+7. If you need to change the router's IP address then edit `ipaddr`:
 ```
 config interface 'lan'
         option ifname 'eth1'
@@ -95,7 +95,7 @@ config interface 'lan'
         option netmask '255.255.255.0'
         option ip6assign '60'
 ```
-9. Restart the router. 
+8. Restart the router. 
 
 CONCLUSION
 ----------

@@ -13,10 +13,9 @@ draft: false
 I recently signed up for Eir's fibre-based broadband package and took an immediate dislike to the Sagemcom router that it came with. It was fiddly to configure and I wanted to see if I could swap it out for an existing and more familiar broadband router I already had. This article outlines how I did this by flashing the old router with open source OpenWRT/LEDE software and configuring a VLAN to get it to work.
 
 The main reasons for doing this:
-- Benefits of the well-established OpenVPN standard
 - A familiar user interface
 - Easier to configure things like firewalls, proxies etc.
-- An excuse to write this up and learn a little about VLANs
+- An excuse to write up a description of it
 
 
 BACKGROUNG AND FIBRE ROLLOUT

@@ -28,13 +28,13 @@ During the intervening years we moved to rural Co. Tipperary and continued using
 
 In the meantime fibre optic cabling became the next generation broadband due to its faster and longer range links. But countryside fibre seemed a distant dream until in mid 2019 Eir, Ireland's largest telecoms provider, announced a €250m fibre investment to upgrade their national broadband infrastructure. The rollout began by focusing first on bringing fibre-to-the-home (FTTH) with speeds up to 1Gps speeds to the outskirts of towns first, where traditional DSL speeds fall off and the benefits would be felt the most. Once the rural upgrade was completed, they would then move on to upgrading the towns and cities with newer FTTH equipment that supported even faster 10Gbps speeds.
 
-We got lucky and made it as one of the 330,000 rural installations to benefit from this upgrade - a fibre optic cable and distribution box appeared on a pole opposite our house - the last on our road - giving us at least the very real possibility of 1 gigabit speeds. 
+We got lucky and made it as one of the 330,000 rural installations to benefit from Eir's upgrade - a fibre optic cable and distribution box appeared on a pole opposite our house. It was the last on our road - giving us the very real possibility of 1 gigabit speeds. 
 
 At this point it's worth clarifying a few things when it comes to broadband speeds that have been muddled due to overmarketing and general ambiguity. When Eir originally rolled out Fibre-to-the-Cabinet (FTTC) in 2010 they marketed it as "fibre broadband" even though it was still DSL that was bringing the internet into each home. So while the core "back bone" connection to the local cabinet had speeds of 1GB, the connection between the cabinet and the home was still just copper-based DSL and this could never be more than 100Mbps. Cable broadband helped somewhat with higher speeds of 500Mbps but unlike copper phone lines, not all parts of a town had cable. 
 
-It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to 840,000 premises in hard-to-reach areas not served by the Eir fibre upgrade. This promises 150Mbps by year one, and under contract to reach 500Mbps by year eleven. 
+It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to premises in hard-to-reach areas not served by Eir's fibre upgrade. This promises 150Mbps by year one, and under contract to reach 500Mbps by 2030. 
 
-{{< figure caption="Example of a 3M fibre distribution enclosure located on thousands of telephone poles all over Ireland. They house optical splitters that enable fibre cables to connect to individual houses. They are fully passive and don't use any power." src="/images/ftth-01.jpg" >}}
+{{< figure caption="Example of a fibre optic splice closure seen on thousands of telephone poles all over Ireland. They house optical splitters that enable individual fibre cables to connect to a premises." src="/images/ftth-01.jpg" >}}
 
 
 EIR PACKAGE AND SETUP
@@ -44,9 +44,9 @@ The Eir package I opted for costs €45.99 per month (24 months) and I also paid
 
 This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the fibre capacity is 1GB, the package speeds are fixed at 150/30, 300/50 or 1000/100. So in future we can theoretically upgrade the package to those speeds.
 
-The signal comes from the fibre distribution box on the pole outside our house that's connected to an Optical Network Terminal (ONT) located on an internal wall. 
+The signal comes from the splice closure on the pole outside our house that's connected to an Optical Network Terminal (ONT) located on an internal wall. 
 
-{{< figure caption="The cable linking the fibre distribution box on the pole to the house and into an Optical Network Terminal (ONT)." src="/images/ftth-02.jpg" >}}
+{{< figure caption="The cable linking the splice closure on the pole to the house and into an Optical Network Terminal (ONT)." src="/images/ftth-02.jpg" >}}
 
 The ONT translates the light signals from the fibre optic line into electronic signals and passes them to the WAN port on the router via a standard ethernet cable. 
 

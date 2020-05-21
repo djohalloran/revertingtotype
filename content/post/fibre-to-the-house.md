@@ -22,7 +22,7 @@ The main reasons for doing this:
 BACKGROUNG AND FIBRE ROLLOUT
 ----------------------------
 
-I began my remote working life from Co. Kerry back in November 2003. I vividly remember the evening I got my first DSL connection up and running and was able to connect to a work PC 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds I had at that time seemed futuristic.
+I began my remote working life from Co. Kerry back in November 2003. I vividly remember the evening I got my first DSL connection up and running and was able to connect to a work desktop computer 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds at that time seemed futuristic.
 
 During the intervening years we moved to rural Co. Tipperary and continued using DSL but with the absolute minimum available speeds at the time (0.88Mbps) due to being on the absolute edge of the 5km limit for DSL exchanges. After a few years we ditched the DSL thanks to the sudden availability of a strong 4G signal in the area and a relatively big jump to speeds of around 40Mbps served us well in my continued remote work life.
 
@@ -99,6 +99,6 @@ config interface 'lan'
 
 CONCLUSION
 ----------
-While it's useful to have an alternative router in the MR4320, its maximum speeds will be limited to under 100Mbps due to its old 10/100 ethernet ports. This means that if I want the maximum speeds of 150Mbps my current fibre package has to offer, I'll have to just stick to using the Sagemcom router with its Gigabit ports and ponder the pointlessness of this whole exercise.
+While it's useful to have an alternative router in the MR4320, its maximum speeds will be limited to under 100Mbps due to its older "fast ethernet" 10/100 ports. This means that if I want the maximum speeds of 150Mbps my current fibre package has to offer, I'll have to just stick to using the Sagemcom router with its Gigabit ports and ponder the pointlessness of this whole exercise.
 
 Another option is buy a [more modern router](https://www.asus.com/ie/Networking/RTAC68U/) with Gigabit ports and either configure it with a VLAN as described above or setup the Sagemcom router in bridge mode and connect a better router downwind of it. 

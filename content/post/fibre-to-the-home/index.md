@@ -5,7 +5,7 @@ summary:
 author: "Dermot"
 date: 2020-04-25T21:59:37+01:00
 tags: ["fibre", "eir", "broadband"]
-
+toc: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
@@ -43,7 +43,7 @@ The main reasons for doing this:
 - An excuse to write up a description of it
 
 
-BACKGROUNG AND FIBRE ROLLOUT
+BACKGROUND AND FIBRE ROLLOUT
 ----------------------------
 
 I began my remote working life from Co. Kerry back in November 2003. I vividly remember the evening I got my first DSL connection up and running and was able to connect to a work desktop computer 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds at that time seemed futuristic.
@@ -66,19 +66,19 @@ EIR PACKAGE AND SETUP
 
 The Eir package I opted for costs €45.99 per month (24 months) and I also paid a €49.99 installation fee which involved an engineer bringing a wire across the road, onto my gable end and in through the wall. The router was free and is a Sagemcom Eir fibre box 1A 1.0 CS 50001.
 
+{{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router" src="/img/ftth-05.jpg" >}}
+
 This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the maximum capacity is theoretically 1GB, the package speeds are fixed at speeds of 150Mbps down and 30Mbps up. In future we can upgrade the package to speeds of 300Mbps/50Mbps and 1000Mbps/100Mbps. 
 
 The signal comes from the splice closure on the pole outside our house that's connected to an Optical Network Terminal (ONT) located on an internal wall. 
 
-{{< figure caption="The cable linking the splice closure on the pole to the house and into an Optical Network Terminal (ONT)." src="/images/ftth-02.jpg" >}}
+{{< figure caption="The cable linking the splice closure on the pole to the house and into an Optical Network Terminal (ONT)." src="/img/ftth-02.jpg" >}}
 
 The ONT translates the light signals from the fibre optic line into electronic signals and passes them to the WAN port on the router via a standard ethernet cable. 
 
 {{< figure caption="The Optical Network Terminal (ONT)." src="/img/ftth-03.jpg" >}}
 
 However, the Sagemcom Eir fibre Box 1A 1.0 router supplied by Eir has a poor user interface and I wanted to try using an existing modem I had that I'd be more familiar with and would have a better interface. 
-
-{{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router" src="/img/ftth-05.jpg" >}}
 
 So I reached for a TP-Link TL-MR3420 v2 router but it didn't support VLAN tags which is necessary in order to work. A little bit of research informed me that installing OpenWRT on the MR3420 would provide VLAN support.
 

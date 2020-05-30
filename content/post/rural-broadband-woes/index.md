@@ -6,7 +6,7 @@ author: "Dermot"
 date: 2015-02-25T11:23:25Z
 draft: false
 tags: ["broadband", "router"]
-
+toc: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
@@ -46,8 +46,8 @@ Other providers such as 3 and O2 offer plans with more data but their signal is 
 
 So I decided to experiment with two possible solutions: Vodafone and Meteor. Both plans have cooling off periods meaning I could try them both for 7 days (14 days in the case of Vodafone) with the option of a "no quibble" return and refund if they proved unsuitable.
 
-### Vodafone
-
+Vodafone
+--------
 Vodafone have easily the best quality signal and the Huawei R215 device that came with the package detected a 4G connection almost anywhere in the house.
 
 {{< figure caption="Huawei R215" src="/img/rural-broadband-woes-02.jpg" >}}
@@ -62,8 +62,8 @@ The real deal breaker however is that I want to hook the modem into a TP-LINK MR
 
 So, while a great performer in terms of speed, the Vodafone solution had just too many niggly issues to make it a runner.
 
-### Meteor
-
+Meteor
+------
 The Meteor router came in the form of a Huawei E5377. The package is branded as XXL and costs 24 euro per month including VAT and the data usage limit is 30GB.
 
 {{< figure caption="Huawei E5377" src="/img/rural-broadband-woes-04.jpg" >}}
@@ -78,8 +78,8 @@ The only concern was that even at 30GB a month, it may not be enough before incu
 
 So I returned the Vodafone router and opted for the Meteor package.
 
-### The Setup
-
+The Setup
+---------
 As mentioned already, the wifi signal on a small mobile broadband router like the Huawei E5377 or R215 is never going to be strong enough to broadcast around the entire house. You can get around this by using a dedicated 4G router that will greatly extend your wifi capacity and provide ethernet ports for additional devices such as file servers, printers etc.
 
 I already had a TP-LINK MR3220 3G/4G router I picked up some time ago and until now was lying unused.
@@ -99,8 +99,8 @@ Below is a schematic of how it all hangs together. A bit convoluted, no doubt, b
 
 {{< figure caption="The Full Setup" src="/img/rural-broadband-woes-08.jpg" >}}
 
-### Update #1
-
+Update #1
+---------
 The setup has been in place a few months now and is generally working well and the 3G/4G speeds are a much needed improvement over the miniscule 1MB speeds were were living with. There's been no huge downsides apart from the odd day or two where the 3G signal in the area went AWOL. I'm also finding it virtually impossible to stay within the data 30GB limit. It's a lot closer to 50MB and sometimes even more. I've therefore had to purchase a monthly 20GB add-on giving me 50GB a month by default. Some months I've had to buy an extra 15GB on top of all that just to get me over the line. This brings the cost up to roughly €60.
 
 One interesting thing to note was that the MR3220 had some trouble dealing with the Huawei E5377 switching between 3G and 4G signals depending on the network quality on a particular day. This caused the MR3220 to lose its connection entirely with the E5377 entirely and required a restart. This problem was resolved by configuring the E5377 to only use the 3G network so no switching occurred thereby stopping the MR3220 from getting confused.
@@ -109,8 +109,8 @@ In addition, the 4G signal in the area seems to have strengthened and I'm now ge
 
 {{< figure src="/img/rural-broadband-woes-09.jpg" >}}
 
-### Update #2
-
+Update #2
+---------
 [Andrew L](https://twitter.com/langerslangford) got in touch to say that an external antenna he purchased for use with his E5377 made a huge difference to the signal reception. Prior to using the antenna he was barely getting a 3G signal indoors and could only get 4G when the dongle was held out an upstairs window. His speeds went from approximately 1Mb to almost 40Mb.
 
 {{< figure src="/img/rural-broadband-woes-10.jpg" >}}

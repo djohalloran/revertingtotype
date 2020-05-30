@@ -5,7 +5,6 @@ summary:
 author: "Dermot"
 date: 2018-02-11T20:20:55Z
 tags: ["camera", "battery"]
-
 # View.
 #   1 = List
 #   2 = Compact

@@ -6,7 +6,7 @@ subtitle:
 summary: 
 author: "Dermot"
 tags: ["linux", "samba", "readynas", "nas", "network"]
-
+toc: true
 # View.
 #   1 = List
 #   2 = Compact

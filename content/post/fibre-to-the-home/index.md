@@ -38,25 +38,28 @@ projects: []
 I recently signed up for Eir's fibre-based broadband package and took an immediate dislike to the Sagemcom router that it came with. It was fiddly to configure and I wanted to see if I could swap it out for an existing and more familiar broadband router I already had. This article outlines how I did this by flashing the old router with open source OpenWRT/LEDE software and configuring a VLAN to get it to work.
 
 The main reasons for doing this:
-- A familiar user interface
+- A more familiar user interface
 - Easier to configure things like firewalls, proxies etc.
-- An excuse to write up a description of it
+- An excuse to write up a description of my current broadband setup
 
 
 BACKGROUND AND FIBRE ROLLOUT
 ----------------------------
 
-I began my remote working life from Co. Kerry back in November 2003. I vividly remember the evening I got my first DSL connection up and running and was able to connect to a work desktop computer 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds at that time seemed futuristic.
+I began my remote working life from Co. Kerry back in November 2003 and still vividly remember the evening I got my first DSL connection up and running and was able to connect to a work desktop computer 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds at that time seemed futuristic.
 
-During the intervening years we moved to rural Co. Tipperary and continued using DSL but with the absolute minimum available speeds at the time (0.88Mbps) due to being on the absolute edge of the 5km limit for DSL exchanges. After a few years we ditched the DSL thanks to the sudden availability of a strong 4G signal in the area and a relatively big jump to speeds of around 40Mbps served us well in my continued remote work life.
+In the intervening years we moved to rural Co. Tipperary and continued using DSL but with the absolute minimum available speeds at the time (0.88Mbps) due to living on the absolute edge of the 5km limit for DSL exchanges. Around 2015 we ditched the DSL thanks to the availability of a strong 4G signal in the area and a relatively big jump to speeds of around 40Mbps served us well in my continued remote work life.
 
-In the meantime fibre optic cabling became the next generation broadband due to its faster and longer range links. But countryside fibre seemed a distant dream until in mid 2019 Eir, Ireland's largest telecoms provider, announced a €250m fibre investment to upgrade their national broadband infrastructure. The rollout began by focusing first on bringing fibre-to-the-home (FTTH) with speeds up to 1Gps speeds to the outskirts of towns first, where traditional DSL speeds fall off and the benefits would be felt the most. Once the rural upgrade was completed, they would then move on to upgrading the towns and cities with newer FTTH equipment that supported even faster 10Gbps speeds.
+In the meantime, next generation fibre optic broadband had started to make inroads with faster and longer range links. But countryside fibre seemed a distant dream until in mid 2019, Eir, Ireland's largest telecoms provider, announced a €250m fibre investment to upgrade their national broadband infrastructure. The rollout began by focusing initially on bringing fibre-to-the-home (FTTH) with speeds up to 1Gps speeds to the outskirts of towns first, where traditional DSL speeds fall off and the benefits would be felt the most. Once the rural upgrade was completed, they would then move on to upgrading the towns and cities with newer FTTH equipment that supported even faster 10Gbps speeds.
 
-We got lucky and made it as one of the 330,000 rural installations to benefit from Eir's upgrade - a fibre optic cable and distribution box appeared on a pole opposite our house. It was the last on our road - giving us the very real possibility of 1 gigabit speeds. 
+We got lucky and made it as one of the 330,000 rural installations to benefit from Eir's upgrade. Overnight a fibre optic cable and distribution box appeared on a pole opposite our house - the last on our stretch of road - giving us the very real possibility of 1 gigabit speeds. 
+
+WHAT EXACTLY DO WE MEAN BY FIBRE?
+---------------------------------
 
 At this point it's worth clarifying a few things when it comes to broadband speeds that have been muddled due to overmarketing and general ambiguity. When Eir originally rolled out Fibre-to-the-Cabinet (FTTC) in 2010 they marketed it as "fibre broadband" even though it was still DSL that was bringing the internet into each home. So while the core "back bone" connection to the local cabinet had speeds of 1GB, the connection between the cabinet and the home was still just copper-based DSL and this could never be more than 100Mbps. Cable broadband helped somewhat with higher speeds of 500Mbps but unlike copper phone lines, not all parts of a town had cable. 
 
-It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to premises in hard-to-reach areas not served by Eir's fibre upgrade. This promises 150Mbps by year one, and under contract to reach 500Mbps by 2030. 
+It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to premises in hard-to-reach areas not served by Eir's fibre upgrade. This promised speeds of 150Mbps by year one and 500Mbps by 2030. 
 
 {{< figure caption="Example of a fibre optic splice closure seen on thousands of telephone poles all over Ireland. They house optical splitters that enable individual fibre cables to connect to a premises." src="ftth-06.jpg" >}}
 
@@ -64,7 +67,7 @@ It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae
 EIR PACKAGE AND SETUP
 ---------------------
 
-The Eir package I opted for costs €45.99 per month (24 months) and I also paid a €49.99 installation fee which involved an engineer bringing a wire across the road, onto my gable end and in through the wall. The router was free and is a Sagemcom Eir fibre box 1A 1.0 CS 50001.
+The Eir package I opted for cost €45.99 per month (24 months) and I also paid a €49.99 installation fee which involved an engineer bringing a wire across the road, onto my gable end and in through the wall. The router was free and is a Sagemcom Eir fibre box 1A 1.0 CS 50001.
 
 {{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router" src="/img/ftth-05.jpg" >}}
 

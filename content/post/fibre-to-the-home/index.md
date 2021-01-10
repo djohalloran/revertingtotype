@@ -67,9 +67,9 @@ It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae
 EIR PACKAGE AND SETUP
 ---------------------
 
-The Eir package I opted for cost €45.99 per month (24 months) and I also paid a €49.99 installation fee which involved an engineer bringing a wire across the road, onto my gable end and in through the wall. The router was free and is a Sagemcom Eir fibre box 1A 1.0 CS 50001.
+The Eir package I opted for cost €45.99 per month (24 months) and I also paid a €49.99 installation fee which involved an engineer bringing a wire across the road, onto my gable end and in through the wall. The router was free and is a Sagemcom Eir fibre box 1A 1.0 CS 50001 which Eir brand as the [F3000 or F5366s](https://www.eir.ie/opencms/export/sites/support/.galleries/pdfs/support-pdfs/user_manual_f3000.pdf) but only on the manual it seems ([earlier](https://finbarr.dev/2017-07-13-replace-eir-f2000/) FTTH [customers](https://conor.engineer/2018/02/10/replace-the-eir-f2000-router/) seemed to get an F2000 which was a rebranded Huawei HG659b).
 
-{{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router" src="/img/ftth-05.jpg" >}}
+{{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router branded by Eir as the F3000" src="/img/ftth-05.jpg" >}}
 
 This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the maximum capacity is theoretically 1GB, the package speeds are fixed at speeds of 150Mbps down and 30Mbps up. In future we can upgrade the package to speeds of 300Mbps/50Mbps and 1000Mbps/100Mbps. 
 
@@ -132,6 +132,10 @@ config interface 'lan'
 
 CONCLUSION
 ----------
-While it's useful to have an alternative router in the MR4320, its maximum speeds will be limited to under 100Mbps due to its older "fast ethernet" 10/100 ports. This means that if I want the maximum speeds of 150Mbps my current fibre package has to offer, I'll have to just stick to using the Sagemcom router with its Gigabit ports and ponder the pointlessness of this whole exercise.
+While it's useful to have an alternative router in the MR4320, its older "fast ethernet" 10/100 ports mean the maximum speeds that will come out of it will be under 100Mbps. This means that if I want the maximum speeds of 150Mbps my current fibre package has to offer, I'll have to just stick to using the Sagemcom router with its Gigabit ports and ponder the pointlessness of this whole exercise.
 
 Another option is buy a [more modern router](https://www.asus.com/ie/Networking/RTAC68U/) with Gigabit ports and either configure it with a VLAN as described above or setup the Sagemcom router in bridge mode and connect a better router downwind of it. 
+
+USEFUL LINKS
+------------
+[Post on the different speed packages offered by Eir](https://homelab.ie/eir-internet-technical-details.html)

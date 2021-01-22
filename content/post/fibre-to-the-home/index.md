@@ -46,22 +46,22 @@ The main reasons for doing this:
 BACKGROUND AND FIBRE ROLLOUT
 ----------------------------
 
-I began my remote working life from Co. Kerry back in November 2003 and still vividly remember the evening I got my first DSL connection up and running and was able to connect to a work desktop computer 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds at that time seemed futuristic.
+I began my remote working life from Co. Kerry back in November 2003 and vividly remember the evening I got my first DSL connection up and running and was able to connect to a work desktop computer 200 miles away in my Dublin-based office and use it like I was physically sitting in front of it. The 4Mbps download speeds at that time seemed futuristic.
 
-In the intervening years we moved to rural Co. Tipperary and continued using DSL but with the absolute minimum available speeds at the time (0.88Mbps) due to living on the absolute edge of the 5km limit for DSL exchanges. Around 2015 we ditched the DSL thanks to the availability of a strong 4G signal in the area and a relatively big jump to speeds of around 40Mbps served us well in my continued remote work life.
+In the intervening years we moved to rural Co. Tipperary and continued using DSL, but due to living on the absolute edge of the 5km limit for DSL exchanges we got the absolute minimum available speeds at the time (about 0.8Mbps). Then around 2015 we ditched the DSL thanks to the availability of a strong 4G signal in the area and a relatively big jump to speeds of around 40Mbps.
 
 In the meantime, next generation fibre optic broadband had started to make inroads with faster and longer range links. But countryside fibre seemed a distant dream until in mid 2019, Eir, Ireland's largest telecoms provider, announced a €250m fibre investment to upgrade their national broadband infrastructure. The rollout began by focusing initially on bringing fibre-to-the-home (FTTH) with speeds up to 1Gps speeds to the outskirts of towns first, where traditional DSL speeds fall off and the benefits would be felt the most. Once the rural upgrade was completed, they would then move on to upgrading the towns and cities with newer FTTH equipment that supported even faster 10Gbps speeds.
 
-We got lucky and made it as one of the 330,000 rural installations to benefit from Eir's upgrade. Overnight a fibre optic cable and distribution box appeared on a pole opposite our house - the last on our stretch of road - giving us the very real possibility of 1 gigabit speeds. 
+We got lucky and made it as one of the 330,000 rural installations to benefit from Eir's upgrade. Overnight a fibre optic cable and distribution box appeared on a pole opposite our house - the last on our stretch of road - giving us the very real possibility of up to 1 gigabit speeds. 
+
+{{< figure caption="Example of a fibre optic splice closure seen on thousands of telephone poles all over Ireland. They house optical splitters that enable individual fibre cables to connect to a premises." src="ftth-06.jpg" >}}
 
 WHAT EXACTLY DO WE MEAN BY FIBRE?
 ---------------------------------
 
-At this point it's worth clarifying a few things when it comes to broadband speeds that have been muddled due to overmarketing and general ambiguity. When Eir originally rolled out Fibre-to-the-Cabinet (FTTC) in 2010 they marketed it as "fibre broadband" even though it was still DSL that was bringing the internet into each home. So while the core "back bone" connection to the local cabinet had speeds of 1GB, the connection between the cabinet and the home was still just copper-based DSL and this could never be more than 100Mbps. Cable broadband helped somewhat with higher speeds of 500Mbps but unlike copper phone lines, not all parts of a town had cable. 
+At this point it's worth clarifying a few things when it comes to broadband speeds that have been muddled due to overmarketing and general ambiguity. When Eir originally rolled out Fibre-to-the-Cabinet (FTTC) in 2010 they marketed it as "fibre broadband" even though it was still DSL that was bringing the internet into each home. So while the core "back bone" connection to the local cabinet had speeds of 1GB, the connection between the cabinet and the home was still just copper-based DSL and this could never be more than 100Mbps. Cable broadband helped somewhat with higher speeds of up to 500Mbps but unlike copper phone lines, not all parts of a town had cable. 
 
-It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to premises in hard-to-reach areas not served by Eir's fibre upgrade. This promised speeds of 150Mbps by year one and 500Mbps by 2030. 
-
-{{< figure caption="Example of a fibre optic splice closure seen on thousands of telephone poles all over Ireland. They house optical splitters that enable individual fibre cables to connect to a premises." src="ftth-06.jpg" >}}
+It's also worth mentioning the [National Broadband Plan (NBP)](https://www.dccae.gov.ie/en-ie/communications/topics/Broadband/national-broadband-plan/high-speed-broadband-map/Pages/Interactive-Map.aspx) which was set up in 2019 to extend high-speed broadband to premises in hard-to-reach areas not served by Eir's fibre upgrade. This promised speeds of 150Mbps by year one and 500Mbps by 2030 (EDIT the [first official installation](https://www.independent.ie/business/technology/cork-home-is-the-first-connected-under-3bn-rural-national-broadband-plan-39999354.html) occured in January 2021).
 
 
 EIR PACKAGE AND SETUP
@@ -71,7 +71,9 @@ The Eir package I opted for cost €45.99 per month (24 months) and I also paid 
 
 {{< figure caption="Sagemcom Eir fibre Box 1A 1.0 router branded by Eir as the F3000" src="/img/ftth-05.jpg" >}}
 
-This package give us speeds of 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the maximum capacity is theoretically 1GB, the package speeds are fixed at speeds of 150Mbps down and 30Mbps up. In future we can upgrade the package to speeds of 300Mbps/50Mbps and 1000Mbps/100Mbps. 
+This package give us speeds of up to 150Mbps down and 30Mbps up, tripling our previous 4G download speeds and quadrupling the upload speed. Distance is not a factor when it comes to fibre, and while the maximum capacity is theoretically 1GB, the package speeds are fixed at speeds of 150Mbps down and 30Mbps up. In future we can upgrade the package to speeds of 300Mbps/50Mbps and 1000Mbps/100Mbps. 
+
+{{< figure caption="Average speed test for the 150Mbps package." src="ftth-07.jpg" >}}
 
 The signal comes from the splice closure on the pole outside our house that's connected to an Optical Network Terminal (ONT) located on an internal wall. 
 

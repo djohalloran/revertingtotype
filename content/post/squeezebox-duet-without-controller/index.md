@@ -14,7 +14,7 @@ toc: true
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
   placement: 3
-  caption: ''
+  caption: 'Our Squeezebox Classic, still in use since 2006'
   focal_point: "Center"
   preview_only: false
 
@@ -28,7 +28,9 @@ projects: []
 
 A few years ago my sister bought a Squeezebox Duet to play her music. It's a superb solution. It consists of a small black box known as a Receiver. This connects to your wireless or LAN network and streams music from any device on it running the Squeezecenter Server software and plays it through your own speaker setup. It's all managed using a separate Controller that wirelessly connects to the headless receiver and enables you to browse your music collection and decide what gets played.
 
-Unfortunately, one day the controller just stopped working. Without the controller it became impossible to configure the Receiver. A new controller cost anything up to 300 euro and just wasn't worth the expense. Luckily, after some investigating, I found a pretty good solution - someone had written an application called Net:UDAP that could connect to a Squeezebox Receiver and enable you to setup and configure the receiver's wireless settings so it can connect to your network.
+Unfortunately, one day the controller just stopped working. Without the controller it became impossible to configure the Receiver. A new controller cost anything up to 300 euro and just wasn't worth the expense. Luckily, after some investigating, I found a pretty good solution - a [Robin Bowes](https://twitter.com/robinbowes) had [written an application called Net:UDAP](https://github.com/robinbowes/net-udap) that could connect to a Squeezebox Receiver and enable you to setup and configure the receiver's wireless settings so it can connect to your network.
+
+{{< figure caption="Squeezebox Duet with controller" src="squeezebox-duet-with-controller.jpg" >}}
 
 The application comes in the form of a Perl script which when run, connects to the receiver over a direct ethernet connection and enables you to manually set the receiver's settings just like you would have done with a working controller. Once configured you can then use the free Squeezebox app available from the Android market or Apple Store on your phone or tablet to control the Receiver just like you would with the original controller.
 
@@ -44,7 +46,7 @@ The following is a short summary of the steps. More detailed instructions are fo
 
 4.. Install Perl on your operating system.
 
-5.. Download the Net::UDAP application from [https://projects.robinbowes.com/Net-UDAP/trac/browser/branches/1.0.x](https://projects.robinbowes.com/Net-UDAP/trac/browser/branches/1.0.x)
+5.. Download a ZIP of the Net::UDAP application from [https://github.com/robinbowes/net-udap](https://github.com/robinbowes/net-udap) and extract it somewhere on your computer (or clone the project if you've got Git installed).
 
 6.. Run the Net::UDAP application's `udap_shell.pl` script as follows to connect to the Squeezebox Receiver:
 ```
@@ -139,9 +141,9 @@ C:\Users\Dermot>
 ```
 ### Run the Application to Connect to the Squeezebox Receiver
 
-1.. Download the Net::UDAP application ZIP and extract the archive to any location.
+1.. Download a ZIP of the Net::UDAP application from [https://github.com/robinbowes/net-udap](https://github.com/robinbowes/net-udap) and extract it somewhere on your computer (or clone the project if you've got Git installed).
 
-2.. To get the Net::UDAP application to connect to the Squeezebox Receiver you need to run its udap_shell.pl script and specify the IP address of the Receiver you determined in the previous section. Here's an example of the command where the IP address of the Receiver is 169.254.163.42:
+2.. To get the Net::UDAP application to connect to the Squeezebox Receiver you need to run its `udap_shell.pl` script and specify the IP address of the Receiver you determined in the previous section. Here's an example of the command where the IP address of the Receiver is 169.254.163.42:
 ```
 C:\branches\1.0.x\scripts>udap_shell.pl --local-address 169.254.163.42
 ```

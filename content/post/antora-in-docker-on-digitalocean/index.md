@@ -48,7 +48,7 @@ An easier way is to run Antora in a Docker container so you don't have to worry 
 
 Docker is a tool for running container images. You can think of a container image as a box with everything you need to run an application: the code, the runtime, the settings, and even the operating system itself. Containers isolate software from your host environment so you can get up and running more quickly. Rather than installing and running Antora on your own computer, you install Docker and run the Antora command through its container image.
 
-In this example we're going to go a step further. Instead of running Docker on my local machine, I'm going to create and use a DigitalOcean environment in the cloud.
+In this example we're going to go a step further. Instead of running Docker on a local machine, we're going to run it within a DigitalOcean virtual environment in the cloud.
 
 STEP-BY-STEP
 ------------

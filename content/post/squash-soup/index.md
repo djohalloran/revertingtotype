@@ -1,11 +1,11 @@
 ---
-title: "Buying a Smart TV in 2020"
-subtitle: A story of compromise
+title: "Squash Soup"
+subtitle: Winter warmer
 draft: true
 summary: 
 author: "Dermot"
 date: 2020-06-29T20:01:00+01:00
-tags: ["tv", "QLED", "Smart", "4K"]
+tags: ["soup", "squash", "cooking", "grow" ]
 toc: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -40,38 +40,28 @@ projects: []
 OVERVIEW
 --------
 
+How hard can it be to buy a TV in 2020? Very hard as it turns out. 
+
+The last time we changed our TV was in 2010 and was prompted by the launch of Ireland's digital terrestial "Saorview" service. The previous year we had bought a mid-range 32" Sony Bravia KDL-32S3000 not realising it only supported MPEG-2 encoding and not the MPEG-4 encoding required by Saorview. This meant we needed to use a clunky set-top box (STB) to view RTE1 etc. once the anlalogue signal disappeared.
+
+We ultimately obtained an excellent 40" Samsung LE40B550 LCD. Its built-in Saorview tuner meant straight access to the core RTE channels with no additional box. Samsung's Anynet+ made it easy to add additional HDM1 devices and access them from the one remote. We added a Humax box to access the Freesat satellite channels which required an additional remote however. The Humax also included built-in Netflix and YouTube apps to allow us access streamed content. Finally we added a Raspberry Pi running Kodi to access content on an external hard drive. All a bit clunky with the two remotes but manageable. 
+
+As the years passed and the affordabilty of large 4K screens became more enticing the lure of a new TV with built-in smarts became too much. Accessing newer streaming services like Disney+ and Amazon Prime also became an issue as they were not supported by the Humax.
+
+So a new TV would solve all our problems and also mean we could dispense with the Humax STB and get access to more mainsteam apps.  
 
 
-A little knowledge is a dangerous thing when buying a TV. The more you learn, the harder it becomes to make a decision. It's hard not to be convinced that the perfect model exists out there. And just as you get close, some missing feature or price point undermines everything and your search returns back to square one. 
 
-In a world where everything about a TV's benefits is measurable, the one aspect that defies measurement is how much a feature will actually improve your life. Viewing angles. Contrast. 
-
-Yet the holy grail is a Tv with all these features and at a suitable price. This is why a TV willalways feel like a compromise.
-
-How many data points did someone need to know in the 1970s? 10? Nowadays it's about 50. The sheer depth reviews go into is incredible. As an average consumer do I need to know etc. etc.
-
-Picking through features like HDMI 2.1, VRR, HDR10+, OLED, QLED and so on makes it hard to choose a TV to suit your requirements and the fear of missing outi is real.
-
-The last time we changed our TV was in 2010 and was prompted by the launch of Ireland's digital terrestial "Saorview" service. The previous year we had bought a mid-range 32" Sony Bravia KDL-32S3000 not realising it only supported MPEG-2 encoding and not the MPEG-4 encoding required by Saorview. This meant we needed to use a clunky set-top box (STB) to view the new digital channels once the anlalogue signal disappeared.
-
-We ultimately obtained an excellent 40" Samsung LE40B550 LCD. Its built-in Saorview tuner meant straight access to the core RTE channels with no additional box. Samsung's Anynet+ made it easy to add additional HDM1 devices and access them from the one remote. We added a Humax box to access the Freesat satellite channels which required an additional remote however. The Humax also included built-in Netflix and YouTube apps to allow us access streamed content. Finally we added a Raspberry Pi running Kodi to access content on an external hard drive. All a bit clunky with the two remotes but certainly manageable. 
-
-As the years passed and the affordabilty of large HD and 4K screens became more enticing the lure of a new TV with built-in smarts grew stronger. The arrival of newer streaming services like Disney+ and Amazon Prime also became an issue as they were not supported by the aging Humax.
-
-So a new TV would solve all our problems and also mean we could dispense with the Humax STB and get access to all the mainsteam apps in one place.  
-
-RESEARCH
-Picking through features like HDMI 2.1, VRR, HDR10+, OLED, QLED and so on makes it hard to pick a TV to suit your requirements. Having all the nice things was going to leave a serious hole in my pocket. It quickly became clear that I would have to accept some compromises. 
+Picking through features like HDMI 2.1, VRR, HDR10+, OLED, QLED and so on makes it hard to pick a TV to suit requirements. Having all the nice things was going to leave a serious hole in my pocket. It quickly became clear that I would have to accept some compromises. 
 
 I tried to narrow requirements down to the following:
 
-Size: 49" - 50" to suit our room's dimensions
 General multi-use, kids, movies, games
+Size: 49" - 50" to suit our room's alcove
 Reasonable viewing angle and brightness
-Covid was also a factor.
 
-PROBLEMS
 Button presses for a source change.
+
 Good sound
 
 So here's a quick run down through the main options.
@@ -95,7 +85,7 @@ For games that support HDR the Q80T will display much better colours and deeper 
 
 Came out in March 2020. By the end of December it's price was down to 1049
 
-
+Covid was also a factor.
 
 HDMI 2.1. 
 Software. 
@@ -107,11 +97,13 @@ OLED vs. QLED.
 Burn in.
 
 
-Overall we're happy. The Q80T brightness is exceptional, even too bright at times, and it copes perfectly in the room with reflections. The blacks are deep too, and while not at OLED levels, and do . A 50" screen would probably be a better size for the particular room we have but it doesn't take long before the 55" became the new normal.
+Overall we're pretty happy. The Q80T is quite a machine. The brightness is exceptional and it copes perfectly in the room with no reflections. The blacks are deep and do . A 50" screen would probably be a better size for the particular room we have but it doesn't take long before we adjusted to thr 55".
 
 For 500 euro less we could have got the 50" TU8000 and maybe that would have been the best compromise. But what's done is done. FOMO is real.
 
 https://www.did.ie/samsung-tu8000-50-4k-hdr-crystal-view-led-smart-tv-black-ue50tu8000kxx-ue50tu8000kxx-prd
+
+
 
 
 Existing TV was Samsung LE40B550 40in LCD TV. 

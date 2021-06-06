@@ -40,15 +40,15 @@ projects: []
 OVERVIEW
 --------
 
-[Antora](https://antora.org/) is an open source documentation site generator. It allows you to host your documentation in a version control system like GitHub, GitLab or Bitbucket and from it build a pretty documentation site using an easily configurable "playbook" that allows you to control the presentation and content versioning.
+[Antora](https://antora.org/) is an open source documentation site generator. It allows you to host your product documentation in a version control system like GitHub, GitLab or Bitbucket and build a pretty documentation site using an easily configurable "playbook" that controls the presentation and content versioning.
 
-Installing Antora on a desktop machine requires a number of pre-requistive tools and libraries like NVM and Node. In my experience trying to get Antora installed in either Windows or Linux ended up being a bit of a pain.
+Installing Antora on a desktop machine requires a number of pre-requistive tools and libraries like Node Version Manager (NVM) and Node itself. In my experience, trying to get Antora installed on both Windows and Linux ended up being a bit of a pain.
 
-An easier way is to run Antora in a Docker container so you don't have to worry about installing the various tools required and wrestle with various OS incompatibilities. All you need to do is install Docker and tell it to run the relevant Antora container.
+An easier way is to run Antora in a [Docker container](https://www.docker.com/products/docker-desktop) so you don't have to worry about installing the various tools required and wrestle with OS and hardware incompatibilities. All you need to do is install Docker and tell it to run the official Antora container designed especially for Docker.
 
-Docker is a tool for running container images. You can think of a container image as a box with everything you need to run an application: the code, the runtime, the settings, and even the operating system itself. Containers isolate software from your host environment so you can get up and running more quickly. Rather than installing and running Antora on your own computer, you install Docker and run the Antora command through its container image.
+You can think of a Docker container image as a box with everything you need to run an application: the code, the runtime, the settings, and even the operating system itself. Docker containers isolate software from your machine's environment so you can get up and running more quickly. So rather than installing and running Antora on your own computer, you install Docker and run Antora on its container image.
 
-In this example we're going to go a step further. Instead of running Docker on a local machine, we're going to run it within a DigitalOcean virtual environment in the cloud.
+In this example we're going to go a step further and instead of running Docker on a local machine, we're going to run it within a [DigitalOcean](https://www.digitalocean.com/products/droplets/) virtual environment hosted in the cloud.
 
 STEP-BY-STEP
 ------------
@@ -91,34 +91,34 @@ drwxr-xr-x 8 root root  4096 Jun  2 19:39 .git
 -rw-r--r-- 1 root root   775 Jun  3 10:21 antora-playbook.yml
 drwxr-xr-x 3 root root  4096 Jun  2 19:49 build
 ```
-The antora-playbook.yml file contains all the details relating to the documentation site such as the various Markdown pages and the UI bundle that controls the HTML rendering of the site.
+The *antora-playbook.yml* file contains all the details relating to the documentation site such as the various Markdown pages and the UI bundle that controls the HTML rendering of the site.
 
-6. The official Antora Docker image for running Antora inside a container is published in the antora/antora project on Docker Hub. To use this, run the following docker run command to invoke the Antora Docker image with the playbook file:
+6. The official Antora Docker image for running Antora inside a container is published in the *antora/antora* project on Docker Hub. To use this, run the following docker run command to invoke the Antora Docker image with the playbook file:
 ```
 docker run -u $(id -u) -v $PWD:/antora:Z --rm -t antora/antora antora-playbook.yml
 ```
 
-This command creates a new container using the Antora Docker image, mounts the current directory as the path /antora inside the container, runs the antora command on the Antora playbook, then stops and removes the container. It’s just like running a locally installed Antora command.
+This command creates a new container using the Antora Docker image, mounts the current directory as the path */antora* inside the container, runs the antora command on the Antora playbook, then stops and removes the container. It’s just like running a locally installed Antora command.
 
-The generated documentation site files will now appear in the build/site directory. 
+The generated documentation site files will now appear in the *build/site* directory. 
 
 To view the site properly in a web browser you'll need to install a web server to host the site. You'll also need to open up the Droplet's firewall so you can actually access it. We'll do this in the following steps.
 
-7. Install X-Tools which will include Python 3:
+7. The simplest web server is the one that comes installed with Python 3 and the easiest way to install Python 3 in a droplet is to installed *X-Tools* which you can do using the following commandL:
 ```
 apt install golang-golang-x-tools
 ```
 
-8. By default all ports except 22 (SSH), 2375 (Docker) and 2376 (Docker) are blocked by the Droplet's UFW firewall. To allow HTTP request we're going to open up port 88. Do this using the following command:
+8. By default, all ports except 22 (SSH), 2375 (Docker) and 2376 (Docker) are blocked by a Droplet's UFW firewall. So to allow HTTP requests to pass in and out, we need to open up a port like 8088 for example. Do this using the following command:
 ```
 ufw allow 8088
 ```
 
-9. Now launch the Python HTTP Server within the build/site directory:
+9. Now launch the Python HTTP Server within the *build/site* directory using the following command:
 ```
 python3 -m http.server 8088
 ```
 
-10. Navigate to the droplet's IP address on port 8088 to see the Antora test site:
+10. Navigate to the droplet's IP address on port *8088* to see the Antora test site:
 
 {{< figure caption="" src="antora-docker-droplet-04.png" >}}

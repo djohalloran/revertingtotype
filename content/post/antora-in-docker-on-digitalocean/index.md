@@ -1,8 +1,8 @@
 ---
-title: "Running Antora through Docker in a DigitalOcean Droplet"
-subtitle: Experiment in building an Antora documentation site using Docker
+title: "Using the Antora Docker Container on a DigitalOcean Droplet"
+subtitle: Experiment in building an Antora documentation site using Docker running on a virtual machine
 draft: false
-summary: Experiment in building an Antora documentation site using Docker
+summary: Experiment in building an Antora documentation site using Docker and Digital Ocean
 author: "Dermot"
 date: 2020-06-03T21:01:00+01:00
 tags: ["antora", "documentation", "DigitalOcean", "docker"]
@@ -98,9 +98,11 @@ The *antora-playbook.yml* file contains all the details relating to the document
 docker run -u $(id -u) -v $PWD:/antora:Z --rm -t antora/antora antora-playbook.yml
 ```
 
-This command creates a new container using the Antora Docker image, mounts the current directory as the path */antora* inside the container, runs the antora command on the Antora playbook, then stops and removes the container. It’s just like running a locally installed Antora command.
+This command creates a new container using the Antora Docker image, mounts the current directory as the path */antora* inside the container, runs the *antora* command on the Antora playbook, then stops and removes the container. It’s just like running a locally installed Antora command. 
 
-The generated documentation site files will now appear in the *build/site* directory. 
+Because we're running this in Linux we need to add the *:Z* or *:z* modifier to the volume mount, and the -*u $(id -u)* option to instruct Docker to run the entrypoint command as the current user. Otherwise, files will be written as root and become hard to delete. The *-t* flag allocates a pseudo-TTY required to display see the progress bars for Git operations.
+
+The generated documentation site files will appear in the *build/site* directory. 
 
 To view the site properly in a web browser you'll need to install a web server to host the site. You'll also need to open up the Droplet's firewall so you can actually access it. We'll do this in the following steps.
 

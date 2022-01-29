@@ -40,9 +40,9 @@ projects: []
 OVERVIEW
 --------
 
-[Antora](https://antora.org/) is an open source documentation site generator. It allows you to host your product documentation in a version control system like GitHub, GitLab or Bitbucket and build a pretty documentation site using an easily configurable "playbook" that controls the presentation and content versioning.
+[Antora](https://antora.org/) is an open source documentation site generator. It allows you to host your product documentation in a version control system like GitHub, GitLab or Bitbucket and from that build a pretty website to display the content using an easily configurable "playbook" that controls the presentation and content versioning.
 
-Installing Antora on a desktop machine requires a number of pre-requistive tools and libraries like Node Version Manager (NVM) and Node itself. In my experience, trying to get Antora installed on both Windows and Linux ended up being a bit of a pain.
+Installing Antora on a desktop machine requires a number of pre-requistive tools and libraries like Node Version Manager (NVM) and Node itself. In my experience, trying to get Antora installed on both Windows and Linux was plagued with problems relating to tool and library versioning issues. 
 
 An easier way is to run Antora in a [Docker container](https://www.docker.com/products/docker-desktop) so you don't have to worry about installing the various tools required and wrestle with OS and hardware incompatibilities. All you need to do is install Docker and tell it to run the official Antora container designed especially for Docker.
 
@@ -57,11 +57,11 @@ STEP-BY-STEP
 
 {{< figure caption="" src="antora-docker-droplet-02.png" >}}
 
-In my case I opted for a one consisting of Docker 19.03.12 running on Ubuntu 20.04 with a regular shared CPU running 1GB RAM and basic block storage. I also just used password authentication.
+In my case I opted for one consisting of Docker 19.03.12 running on Ubuntu 20.04 with a regular shared CPU running 1GB RAM and basic block storage. I also just used password authentication.
 
 {{< figure caption="" src="antora-docker-droplet-01.png" >}}
 
-2. Connect to the Droplet using a Terminal tool. In my case I usedd PuTTy for Windows:
+2. Connect to the Droplet using a Terminal tool. In my case I used PuTTy for Windows:
 
 {{< figure caption="" src="antora-docker-droplet-03.png" >}}
 

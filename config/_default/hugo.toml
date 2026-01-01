@@ -7,7 +7,6 @@ baseURL = "/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-"pagination.pagerSize" = "20"
 summaryLength = 20
 
 buildDrafts = false
@@ -24,9 +23,9 @@ googleAnalytics = "UA-35024589-1"
   series = "series"
 
 #[sitemap]
-#  changefreq = "daily"
-#  filename = "sitemap.xml"
-#  priority = "0.5"
+#  changefreq = 'daily'
+#  filename = 'sitemap.xml'
+#  priority = 0.5
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

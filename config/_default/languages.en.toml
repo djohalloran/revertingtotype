@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Reveting to Type"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  #logo = "img/logo.png"
+  description = "Extrapolating from experience to form generalizations"
+  # copyright = "Copy, _right?_ :thinking_face:"
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Dermot O'Halloran"
+  image = "img/avatar.png"
+  headline = "Technical Writer, Cashel, Co. Tipperary"
+  #bio = "Extrapolating from experience to form generalizations"  
+   #links = [
+   #  { link = "https://nunocoracao.github.io/blowfish/" },
+   #  { x-bluesky = "https://bsky.app/profile/practicalreason.net" }
+   #]

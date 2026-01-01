@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Reveting to Type</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Reveting to Type</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Dermot O&#39;Halloran</copyright>
+    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tomato &amp; Fennel Bread Recipe</title>
+      <link>//localhost:1313/posts/tomato-fennel-bread/</link>
+      <pubDate>Thu, 01 Jan 2026 12:01:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/tomato-fennel-bread/</guid>
+      <description>Consistent results when making bread is tricky. Things like measurements, room temperature and kneading time can all impact on the success of a loaf. Using a bread machine goes along way to ensuring at least the temperature and kneading are largely consistent and take the guesswork out of these aspects. That leaves you with just needing to be precise with your ingredients to guarantee dependable results.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/tomato-fennel-bread/featured.webp" />
+    </item>
+    
+    <item>
+      <title>Using the Antora Docker Container on a DigitalOcean Droplet</title>
+      <link>//localhost:1313/posts/antora-in-docker-on-digitalocean/</link>
+      <pubDate>Wed, 03 Jun 2020 21:01:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/antora-in-docker-on-digitalocean/</guid>
+      <description>OVERVIEW#Antora is an open source documentation site generator. It allows you to host your product documentation in a version control system like GitHub, GitLab or Bitbucket and from that build a pretty website to display the content using an easily configurable “playbook” that controls the presentation and content versioning.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/antora-in-docker-on-digitalocean/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Fibre To The Home</title>
+      <link>//localhost:1313/posts/fibre-to-the-home/</link>
+      <pubDate>Sat, 25 Apr 2020 21:59:37 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/fibre-to-the-home/</guid>
+      <description>I recently signed up for Eir’s fibre-based broadband package and took an immediate dislike to the Sagemcom router that it came with. It was fiddly to configure and I wanted to see if I could swap it out for an existing and more familiar broadband router I already had. This article outlines how I did this by flashing the old router with open source OpenWRT/LEDE software and configuring a VLAN to get it to work.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/fibre-to-the-home/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Cannot Communicate With Battery</title>
+      <link>//localhost:1313/posts/canon-cannot-communicate-with-battery/</link>
+      <pubDate>Sun, 11 Feb 2018 20:20:55 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/canon-cannot-communicate-with-battery/</guid>
+      <description>My secondhand Canon 7D developed a “Cannot Communicate with Battery” warning. I didn’t think much of it at the time as the camera still worked perfectly. The only minor annoyance was that the battery power indicator no longer appeared on the top LCD window or in the battery details screen in the main options panel. The problem became far greater when a week later I grabbed my camera to head to a local event only to realise that the previously fully charged battery was now empty despite little usage.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/canon-cannot-communicate-with-battery/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Rural Broadband Woes</title>
+      <link>//localhost:1313/posts/rural-broadband-woes/</link>
+      <pubDate>Wed, 25 Feb 2015 11:23:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/rural-broadband-woes/</guid>
+      <description>Until recently, Eircom’s fixed-line ADSL service was just about adequate for my broadband needs. But at over 4km from the exchange the average speeds of around 1.5Mbps download and 0.4Mbps upload have become primitive in comparison to what’s available from the newer fibre and mobile broadband services starting to roll out across the country. Things took a turn for the worse a few weeks ago when, despite repeated calls to Eircom support, the best stable speeds I could get dropped to about 0.54Mbps. I even took a screenshot. Something to show the grandchildren in years to come:
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/rural-broadband-woes/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Dualla Show 2013</title>
+      <link>//localhost:1313/posts/dualla-show-2013/</link>
+      <pubDate>Fri, 26 Jul 2013 14:22:10 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/dualla-show-2013/</guid>
+      <description>Check out the new website for this year’s Dualla Show: www.duallashow.ie
+Dualla Show Website</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/dualla-show-2013/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Mounting Network Locations on Linux Using Samba</title>
+      <link>//localhost:1313/posts/mounting-network-locations-on-linux-using-samba/</link>
+      <pubDate>Sun, 29 Jul 2012 20:14:42 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/mounting-network-locations-on-linux-using-samba/</guid>
+      <description>A convenient way to browse files on a networked drive is to map its location to your operating system so that it automatically connects to the drive each time it starts up. Mapping networked drives on Mac or Windows is pretty straightforward using the Mac Finder and Window’s explorer GUIs and both give you an option to automatically reconnect on startup. On Linux however, a little more work is involved to automatically map network locations, so this article will describe how to map network drives on a machine running the Ubuntu flavour of Linux.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mounting-network-locations-on-linux-using-samba/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Setting up a Squeezebox Duet Without a Controller</title>
+      <link>//localhost:1313/posts/squeezebox-duet-without-controller/</link>
+      <pubDate>Tue, 20 Mar 2012 06:57:37 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/squeezebox-duet-without-controller/</guid>
+      <description>A few years ago my sister bought a Squeezebox Duet to play her music. It’s a superb solution. It consists of a small black box known as a Receiver. This connects to your wireless or LAN network and streams music from any device on it running the Squeezecenter Server software and plays it through your own speaker setup. It’s all managed using a separate Controller that wirelessly connects to the headless receiver and enables you to browse your music collection and decide what gets played.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/squeezebox-duet-without-controller/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Syntax Highlighting in Joomla</title>
+      <link>//localhost:1313/posts/syntax-highlighting-in-joomla/</link>
+      <pubDate>Tue, 20 Mar 2012 06:57:24 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/syntax-highlighting-in-joomla/</guid>
+      <description>Code listings are often rendered badly in online articles and blogs making them difficult to read and understand. A nice utility to help format and display code within HTML is Alex Gorbatchev’s widely used SyntaxHighlighter. It is developed in JavaScript so runs in any modern browser. Numerous Joomla implementations of SyntaxHighlighter exist in the form of plugins (have a look here: http://extensions.joomla.org/extensions/core-enhancements/coding-a-scripts-integration/code-display. The one I used is called Joomler SyntaxHighlighter and was developed for Joomla 1.6 but works in Joomla 2.5 also. It enables you to display nice code listings like this:
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/syntax-highlighting-in-joomla/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

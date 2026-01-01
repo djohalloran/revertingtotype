@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samba on Reveting to Type</title>
+    <link>//localhost:1313/tags/samba/</link>
+    <description>Recent content in Samba on Reveting to Type</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Dermot O&#39;Halloran</copyright>
+    <lastBuildDate>Sun, 29 Jul 2012 20:14:42 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/samba/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mounting Network Locations on Linux Using Samba</title>
+      <link>//localhost:1313/posts/mounting-network-locations-on-linux-using-samba/</link>
+      <pubDate>Sun, 29 Jul 2012 20:14:42 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/mounting-network-locations-on-linux-using-samba/</guid>
+      <description>A convenient way to browse files on a networked drive is to map its location to your operating system so that it automatically connects to the drive each time it starts up. Mapping networked drives on Mac or Windows is pretty straightforward using the Mac Finder and Window’s explorer GUIs and both give you an option to automatically reconnect on startup. On Linux however, a little more work is involved to automatically map network locations, so this article will describe how to map network drives on a machine running the Ubuntu flavour of Linux.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mounting-network-locations-on-linux-using-samba/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

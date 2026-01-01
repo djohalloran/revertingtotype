@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DigitalOcean on Reveting to Type</title>
+    <link>//localhost:1313/tags/digitalocean/</link>
+    <description>Recent content in DigitalOcean on Reveting to Type</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Dermot O&#39;Halloran</copyright>
+    <lastBuildDate>Wed, 03 Jun 2020 21:01:00 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/digitalocean/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using the Antora Docker Container on a DigitalOcean Droplet</title>
+      <link>//localhost:1313/posts/antora-in-docker-on-digitalocean/</link>
+      <pubDate>Wed, 03 Jun 2020 21:01:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/antora-in-docker-on-digitalocean/</guid>
+      <description>OVERVIEW#Antora is an open source documentation site generator. It allows you to host your product documentation in a version control system like GitHub, GitLab or Bitbucket and from that build a pretty website to display the content using an easily configurable “playbook” that controls the presentation and content versioning.
+</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/antora-in-docker-on-digitalocean/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

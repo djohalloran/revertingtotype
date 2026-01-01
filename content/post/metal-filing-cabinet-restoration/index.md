@@ -167,8 +167,6 @@ SEMI-POLISH LOOK
 1200 grit
 Buff it with course rubbing compound
 Medium grit
-https://www.youtube.com/watch?v=U6FHY0EhpBU
-
 
 FOR MIRROR LOOK:
 https://www.youtube.com/watch?v=U6FHY0EhpBU

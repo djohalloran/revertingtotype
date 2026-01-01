@@ -92,11 +92,11 @@ So I reached for a TP-Link TL-MR3420 v2 router but it didn't support VLAN tags w
 
 INSTALLING OPENWRT ON A GENREIC ROUTER & CONFIGURING THE VLAN
 -------------------------------------------------------------
-Configuring a router to work with Eir's fibre broadband connection requires etting its WAN port to recieve and transmit on a VLAN. Not all default firmwares allow this, but all the major opensource ones do, such as OpenWRT. I was able to install OpenWRT on the TP-Link TL-MR3420 v2 router after finding the [OpenWRT site had firmware](https://openwrt.org/toh/tp-link/tl-mr3420) for this model. 
+Configuring a router to work with Eir's fibre broadband connection requires setting its WAN port to recieve and transmit on a VLAN. Not all default firmwares allow this, but all the major opensource ones do, such as OpenWRT. I was able to install OpenWRT on the TP-Link TL-MR3420 v2 router after finding the [OpenWRT site had firmware](https://openwrt.org/toh/tp-link/tl-mr3420) for this model. 
 
 Here are the basic steps:
 
-1. Download the firmware file and flash it onto a TP Link router via its existing interface.
+1. Download the firmware file and flash it onto a TP Link router using the firmware update option in the interface.
 
 2. Plug the ethernet cable into the router's LAN port (not WAN) and connect another port to a laptop.
 

@@ -23,5 +23,10 @@ googleAnalytics = "UA-35024589-1"
   author = "authors"
   series = "series"
 
+#[sitemap]
+#  changefreq = "daily"
+#  filename = "sitemap.xml"
+#  priority = "0.5"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]

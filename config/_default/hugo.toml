@@ -7,7 +7,7 @@ baseURL = "/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-pagination.pagerSize = 20
+"pagination.pagerSize" = "20"
 summaryLength = 20
 
 buildDrafts = false

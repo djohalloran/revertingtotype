@@ -8,10 +8,6 @@ date: 2020-06-03T21:01:00+01:00
 tags: ["antora", "documentation", "DigitalOcean", "docker"]
 ---
 
-
-OVERVIEW
---------
-
 [Antora](https://antora.org/) is an open source documentation site generator. It allows you to host your product documentation in a version control system like GitHub, GitLab or Bitbucket and from that build a pretty website to display the content using an easily configurable "playbook" that controls the presentation and content versioning.
 
 Installing Antora on a desktop machine requires a number of pre-requistive tools and libraries like Node Version Manager (NVM) and Node itself. In my experience, trying to get Antora installed on both Windows and Linux was plagued with problems relating to tool and library versioning issues. 
@@ -22,7 +18,7 @@ You can think of a Docker container image as a box with everything you need to r
 
 In this example we're going to go a step further and instead of running Docker on a local machine, we're going to run it within a [DigitalOcean](https://www.digitalocean.com/products/droplets/) virtual environment hosted in the cloud.
 
-STEP-BY-STEP
+Step-by-Step
 ------------
 
 1. Create a new Droplet in your DigitalOcean account. 

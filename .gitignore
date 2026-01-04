@@ -1,3 +1,7 @@
+#
+resources/
+public/
+
 # Logs
 logs
 *.log

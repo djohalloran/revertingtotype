@@ -1,7 +1,7 @@
 ---
-title: "Tomato & Fennel Bread Recipe"
-subtitle: Recipe for easy tomato and fennel loaf in a bread maker
-description: "Recipe for easy tomato and fennel loaf in a bread maker"
+title: "Tomato & Fennel Loaf Recipe for Bread Makers"
+subtitle: Recipe for a tomato and fennel loaf in a standard bread maker
+description: "Recipe for a tomato and fennel loaf in a standard bread maker"
 slug: "tomato-fennel-bread"
 date: 2026-01-01T12:01:00+01:00
 tags: ["tomato", "fennel", "bread"]

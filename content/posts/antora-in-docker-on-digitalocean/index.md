@@ -4,7 +4,7 @@ subtitle: Experiment in building an Antora documentation site using Docker runni
 draft: false
 description: "Experiment in building an Antora documentation site using Docker and Digital Ocean"
 slug: "antora-in-docker-on-digitalocean"
-date: 2020-06-03T21:01:00+01:00
+date: 2022-01-28T18:00:00+01:00
 tags: ["antora", "documentation", "DigitalOcean", "docker"]
 ---
 

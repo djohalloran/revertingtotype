@@ -10,6 +10,8 @@ draft: false
 
 Consistent results when making bread is tricky. Things like measurements, room temperature and kneading time can all impact on the success of a loaf. Using a bread machine goes along way to ensuring at least the temperature and kneading are largely consistent and take the guesswork out of these aspects. That leaves you with just needing to be precise with your ingredients to guarantee dependable results.
 
+{{< figure caption="1kg Tomato & Fennel Bread Loaf " src="tomato-fennel-bread-01.webp" >}}
+
 The following proportions work well in a standard bread machine to produce a very light and flavoursome bread. The fennel and tomoto is a classic combination. The bread smells and tastes great when it comes out and also works well as toast the following day. 
 
 The recipe is designed for the standard 1KG loaf setting which takes 3 hours in most bread machines. On starting, the machine will create the initial dough mix and knead for about 10 minutes before an initial proving of about 30 mins. It will then knead the dough a second time for another 10 minutes and leave that to prove again at which point the baking will begin. 
@@ -42,3 +44,5 @@ Another option is to use the bread machine's dough setting to prove the bread an
 5. Start the bread machine's white loaf program or set it to start overnight so you can have the bread ready for the morning. 
 
 6. When finished, take out the bread and let it cool on a rack before cutting. 
+
+{{< figure caption="1kg Tomato & Fennel Bread Loaf " src="featured.webp" >}}

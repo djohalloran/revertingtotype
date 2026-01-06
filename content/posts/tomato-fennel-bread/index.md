@@ -29,7 +29,7 @@ Another option is to use the bread maker's dough setting to prove the bread and 
 
 1. Measure out the water, puree and olive oil and combine into the bread maker's bowl.
 
-    <substep>While most bread recipes stipulate warm water to help speed up the yeast reaction, I've not found this necessary with a bread maker. Cold or room temperature water left overnight in the breadmaker produces the same results.</substep>
+    <substep>While most bread recipes stipulate warm water to help encourage the yeast reaction, I've not found this necessary when using a bread maker. Cold or room temperature water left overnight in the bread maker produces the same results.</substep>
 
 2. Sift the flour before adding it on top of the liquid ingredients. 
 

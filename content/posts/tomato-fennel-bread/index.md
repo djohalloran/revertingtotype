@@ -29,13 +29,13 @@ Another option is to use the bread maker's dough setting to prove the bread and 
 
 1. Measure out the water, puree and olive oil and combine into the bread maker's bowl.
 
-    <blockquote>While most bread recipes stipulate warm water to help speed up the yeast reaction, I've not found this necessary with a bread maker. Cold or room temperature water left overnight in the breadmaker produces the same results.</blockquote>
+    <substep>While most bread recipes stipulate warm water to help speed up the yeast reaction, I've not found this necessary with a bread maker. Cold or room temperature water left overnight in the breadmaker produces the same results.</substep>
 
 2. Sift the flour before adding it on top of the liquid ingredients. 
 
-    <blockquote>The flour acts as a barrier between the wet ingredients and dry ingredients. This lets you delay the beginning of the mixing if you want to time it overnight to have the bread ready when you wake up. For example, setting the timer on the bread maker to begin at 4:30AM will produce a fresh and cooled loaf ready for eating at 8AM. </blockquote>
+    <substep>The flour acts as a barrier between the wet ingredients and dry ingredients. This lets you delay the beginning of the mixing if you want to time it overnight to have the bread ready when you wake up. For example, setting the timer on the bread maker to begin at 4:30AM will produce a fresh and cooled loaf ready for eating at 8AM. </substep>
 
-    <blockquote>Sifting the flour aerates it and removes compaction which depending on how your flour was stored can have an impact on how the bread turns out. </blockquote>
+    <substep>Sifting the flour aerates it and removes compaction which depending on how your flour was stored can have an impact on how the bread turns out. </substep>
 
 3. Add the salt, sugar and fennel seeds on top of the flour. 
 

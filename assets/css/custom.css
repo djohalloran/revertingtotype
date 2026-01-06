@@ -1,0 +1,9 @@
+/* Increase the default font size */
+html {
+  font-size: 13pt;
+}
+
+substep {
+  font-size: 10pt;
+   text-transform: uppercase; 
+}

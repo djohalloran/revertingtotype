@@ -29,7 +29,7 @@ Another option is to use the bread maker's dough setting to prove the bread and 
 
 1. Measure out the water, puree and olive oil and combine into the bread maker's bowl.
 
-    <substep>While most hand made bread recipes specify warm water to help encourage the yeast reaction, I've not found this necessary when using a bread maker. Room temperature water produces much the same results.</substep>
+    <substep>While most hand made bread recipes specify warm (not hot) water to help encourage the yeast reaction, this is not necessary when using a bread maker timed to run overnight. Room temperature water will produce the same results.</substep>
 
 2. Sift the flour before adding it on top of the liquid ingredients. 
 

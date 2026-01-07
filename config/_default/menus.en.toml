@@ -38,6 +38,12 @@
   url = "https://www.flickr.com/photos/dermotohalloran"
   weight = 80  
 
+[[main]]
+  identifier = "rss"
+  pre = "rss"
+  url = "https://practicalreason.net/index.xml"
+  weight = 85    
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

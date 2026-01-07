@@ -41,7 +41,7 @@
 [[main]]
   identifier = "rss"
   pre = "rss"
-  url = "https://practicalreason.net/index.xml"
+  url = "https://www.practicalreason.net/posts/index.xml"
   weight = 85    
 
 

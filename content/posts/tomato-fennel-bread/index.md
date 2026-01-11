@@ -33,9 +33,9 @@ Another option is to use the bread maker's dough setting to prove the bread and 
 
 2. Sift the flour before adding it on top of the liquid ingredients. 
 
-    <substep>The flour acts as a barrier between the wet ingredients and dry ingredients. This lets you delay the beginning of the mixing if you want to time it overnight to have the bread ready when you wake up. For example, setting the timer on the bread maker to begin at 4:30AM will produce a fresh and cooled loaf ready for eating at 8AM. </substep>
+    <substep>The flour acts as a barrier between the wet and dry ingredients. This lets you delay the mixing until early next morning to have the bread ready when you wake up. For example, setting the timer on the bread maker to begin at 4:30am should produce a fresh and cooled loaf ready for eating at 8am. </substep>
 
-    <substep>Sifting the flour aerates it and removes compaction which depending on how your flour was stored can have an impact on how the bread turns out. </substep>
+    <substep>Sifting aerates the flour and removes compaction  - a factor in how a loaf turns out.</substep>
 
 3. Add the salt, sugar and fennel seeds on top of the flour. 
 

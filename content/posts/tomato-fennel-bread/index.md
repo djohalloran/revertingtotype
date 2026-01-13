@@ -45,4 +45,4 @@ Another option is to use the bread maker's dough setting to prove the bread and 
 
 6. When finished, take out the bread and let it cool on a rack before cutting. 
 
-{{< figure caption="1kg Tomato & Fennel Bread Loaf " src="featured.webp" >}}
+{{< figure caption="1kg Tomato & Fennel Bread Loaf" src="featured.webp" >}}
